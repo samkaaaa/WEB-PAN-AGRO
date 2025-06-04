@@ -77,9 +77,10 @@ body {
 .navbar .navbar-nav a {
     color: #000000;
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin: 0 1rem;
-    margin-left: 10px;  
+    margin-left: 10px;
+    font-weight: bold;  
 
 }
 .navbar .navbar-nav a:hover {
@@ -432,6 +433,7 @@ body {
   color: #000;
   justify-content: center;
   margin-bottom: 20px;
+  font-size: 17px;
 
 }
 .carousel-section h1 {
@@ -440,7 +442,7 @@ body {
 }
 
 .carousel-container {
-  max-width: 1140px;
+  max-width: 1200px;
   margin: auto;
   overflow: hidden;
   position: relative;
@@ -470,7 +472,7 @@ body {
   font-weight: bold;
 }
 .card p {
-  font-size: 14px;
+  font-size: 15.3px;
   color: #666;
   margin-bottom: 10px;
 }
@@ -530,7 +532,7 @@ body {
   margin-bottom: 10px;
 }
 .visimisi-header p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: #4e5d4e;
 }
 .visimisi-content {
