@@ -43,26 +43,3 @@ function prevCard() {
 }
 
 window.addEventListener("resize", updateCarousel);
-window.addEventListener("load", () => {
-  // Carousel
-  updateCarousel();
-
-  // Motion Effect
-  const elements = document.querySelectorAll("h1, h2, h3, p, img, section");
-  const filtered = Array.from(elements).filter(el => !el.classList.contains("no-anim"));
-
-  filtered.forEach(el => el.classList.add("motion-start"));
-
-  gsap.to(filtered, {
-    opacity: 1,
-    y: 0,
-    scale: 1,
-    filter: "blur(0px)",
-    duration: 0.8,
-    ease: "power3.out",
-    stagger: 0.1,
-    onComplete: () => {
-      filtered.forEach(el => el.classList.remove("motion-start"));
-    }
-  });
-});
